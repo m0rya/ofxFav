@@ -1,0 +1,3 @@
+ofxAssimpModelLoader
+ofxFav
+ofxGui
