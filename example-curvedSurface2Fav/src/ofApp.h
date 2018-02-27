@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxFav.h"
+#include "CurvedSurface.hpp"
 
 class ofApp : public ofBaseApp{
 
@@ -23,5 +24,13 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
     
     ofxFav favForWrite;
+    
+    CurvedSurface surface;
+    
+    ofEasyCam cam;
+    ofLight pointLight;
+    
+    ofLight light;
+    
 		
 };

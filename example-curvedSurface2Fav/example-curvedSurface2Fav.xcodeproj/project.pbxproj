@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A8B1F52045B6B0009F0DCE /* CurvedSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A8B1F32045B6B0009F0DCE /* CurvedSurface.cpp */; };
 		0653C89BD4713D98E45F61C8 /* Palette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A552D22DDFE31718CBB80CC /* Palette.cpp */; };
 		0A69238275364DCA6D7797CA /* Vector3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40CF0969787DEFB3AC0E283B /* Vector3D.cpp */; };
 		1CD33E884D9E3358252E82A1 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 907C5B5E104864A2D3A25745 /* ofxToggle.cpp */; };
@@ -72,6 +73,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04A8B1F32045B6B0009F0DCE /* CurvedSurface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CurvedSurface.cpp; sourceTree = "<group>"; };
+		04A8B1F42045B6B0009F0DCE /* CurvedSurface.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CurvedSurface.hpp; sourceTree = "<group>"; };
 		0A1DAC09F322AE313A40706D /* ofxToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxToggle.h; path = ../../../addons/ofxGui/src/ofxToggle.h; sourceTree = SOURCE_ROOT; };
 		0A552D22DDFE31718CBB80CC /* Palette.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Palette.cpp; path = ../../../addons/ofxFav/libs/FavLibrary/Palette/Palette.cpp; sourceTree = SOURCE_ROOT; };
 		0E3FB6D73DB6B260295B6855 /* LogStream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = LogStream.hpp; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/LogStream.hpp; sourceTree = SOURCE_ROOT; };
@@ -428,6 +431,8 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+				04A8B1F32045B6B0009F0DCE /* CurvedSurface.cpp */,
+				04A8B1F42045B6B0009F0DCE /* CurvedSurface.hpp */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -569,6 +574,7 @@
 				483FA4F6D5FA6422C559B1F5 /* ofxAssimpMeshHelper.cpp in Sources */,
 				8DED5056525646FA71980866 /* ofxAssimpModelLoader.cpp in Sources */,
 				B8846EF8E504895A4A9EFEC0 /* ofxAssimpTexture.cpp in Sources */,
+				04A8B1F52045B6B0009F0DCE /* CurvedSurface.cpp in Sources */,
 				B994C9E9C695DD18F09E4429 /* ofxFav.cpp in Sources */,
 				57DD187120709F76CB3FEFA2 /* ofxFavPreview.cpp in Sources */,
 				6AC906EC434D72ADFA3336E5 /* SelectionGui.cpp in Sources */,
