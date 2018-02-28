@@ -10,7 +10,7 @@ void ofApp::setup(){
     light.enable();
     light.setPointLight();
     light.setScale(100);
-    light.setPosition(-100 ,300, -100);
+    light.setPosition(-100 ,500, -100);
     
     light.setAmbientColor(ofFloatColor(0.5, 0.5, 0.5, 1.0));
     light.setDiffuseColor(ofFloatColor(0.5, 0.5, 1.0));

@@ -12,6 +12,8 @@
 #include "ofMain.h"
 #include "ofxGui.h"
 #include "ofxFav.h"
+#include "ofParameterGroup.h"
+#include "ofParameter.h"
 
 #include <uuid/uuid.h>
 
@@ -43,6 +45,7 @@ public:
     
     void convert2Voxel();
     
+    void setup();
     void update();
     
     //setter
@@ -100,6 +103,7 @@ private:
     vector<ofVec3f> pointForVoxel;
     
     int voxelScale = 10;
+    int preScale = 50;
     
     
     
@@ -107,6 +111,14 @@ private:
     ofxPanel gui;
     ofParameter<int> voxelScaleSlider;
     ofParameter<int> finenessSlider;
+    ofParameter<int> scale;
+    
+    ofxButton exportButton;
+    const int numCurvedSurface = 8;
+    ofParameterGroup parameters;
+    vector<ofParameter<bool>> curvedSurfacesId;
+    int currentSelected = 0;
+    void updateGui();
     
     
     

@@ -337,6 +337,7 @@ void ofApp::exportFav(){
     favForWrite.addObject(obj1);
     favForWrite.write("voxelByDLA.fav", FavLibrary::CompressionMode::base64);
     
+    ofSystemAlertDialog("Succesfuly .fav file has been exported");
     cout << "Succesfuly .fav file has been exported\n";
     
 }

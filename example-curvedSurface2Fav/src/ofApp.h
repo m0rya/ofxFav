@@ -32,5 +32,7 @@ class ofApp : public ofBaseApp{
     
     ofLight light;
     
+    int surfaceToggle = 0;
+    
 		
 };

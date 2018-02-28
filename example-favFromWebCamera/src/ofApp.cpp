@@ -147,6 +147,7 @@ void ofApp::writeFavFromWebCam(){
     favForWrite.addObject(obj1);
     favForWrite.write("m0rya.fav", FavLibrary::CompressionMode::base64);
     
+    ofSystemAlertDialog("Succesfuly .fav file has been exported");
     cout << "Succesfuly .fav file has been exported\n";
     
     
